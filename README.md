@@ -25,7 +25,11 @@ That seems a bit confusing, and a bit random, doesn't it? Well, allow me to give
 
 ### Anchors
 
+First things first, let's discuss the "Anchor" aspect of the regex. Anchors are special characters that that tell the reader where the string begins and where it ends. It begins with a carat (^) and ends with a dollar sign ($). These helps the reader to focus on a specific string, and makes the search more efficient since it is between the carat and dollar sign. Without these characters at the beginning and end of the string, the search engine will take longer to produce results since it will be looking for the pattern in other locations.
+
 ### Quantifiers
+
+
 
 ### Grouping Constructs
 
