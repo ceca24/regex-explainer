@@ -43,9 +43,19 @@ With Grouping Constructs, these are pretty straightforward. They can be found wi
 
 ### Bracket Expressions
 
-Bracket Expressions are used to define a set of characters that are allowed to be used in the regex. In the above example, the first grouping construct is defined by the bracket expression "a-z0-9_\.-". This means that the first grouping construct can only contain lowercase letters, numbers, underscores, periods, and hyphens. The second grouping construct is defined by the bracket expression "a-z0-9\.-". This means that the second grouping construct can only contain lowercase letters, numbers, periods, and hyphens. The third grouping construct is defined by the bracket expression "a-z\." This means that the third grouping construct can only contain lowercase letters, periods, and hyphens.
+Bracket Expressions are used to define a set of characters that are allowed to be used in the regex within the square brackets "[]". In the above example, the first grouping construct is defined by the bracket expression "a-z0-9_\.-". This means that the first grouping construct can only contain lowercase letters, numbers, underscores, periods, and hyphens. The second grouping construct is defined by the bracket expression "a-z0-9\.-". This means that the second grouping construct can only contain lowercase letters, numbers, periods, and hyphens. The third grouping construct is defined by the bracket expression "a-z\." This means that the third grouping construct can only contain lowercase letters, periods, and hyphens.
 
 ### Character Classes
+
+Character Classes help pick out the different kinds of characters the reader wants to check for, or match, in the regex and are indicated by a backslash "\". Including the above example, here are some of the most common character classes:
+- \d = any digit
+- \D = any non-digit
+- \w = any word character
+- \W = any non-word character
+- \s = any whitespace character
+- \S = any non-whitespace character
+
+As the reader can see, the capital letter version of the character class will match the opposite of the lowercase version. For example, \d will match any digit, while \D will match any non-digit.
 
 ### The OR Operator
 
