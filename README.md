@@ -67,6 +67,8 @@ This line will match the word "here", "there", OR "everywhere". This is a great 
 
 ### Flags
 
+Flags are used to modify the search pattern, and are indicated by a forward slash "/" at the end of the regex. The most common flags are "g", "i", and "m". The "g" flag is used to search for all matches in the string, while the "i" flag is used to ignore the case of the string. The "m" flag is used to search for multiple lines in the string.
+
 ### Character Escapes
 
 ## Author
