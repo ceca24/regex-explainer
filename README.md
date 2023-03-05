@@ -48,12 +48,12 @@ Bracket Expressions are used to define a set of characters that are allowed to b
 ### Character Classes
 
 Character Classes help pick out the different kinds of characters the reader wants to check for, or match, in the regex and are indicated by a backslash "\". Including the above example, here are some of the most common character classes:
-- \d = any digit
-- \D = any non-digit
-- \w = any word character
-- \W = any non-word character
-- \s = any whitespace character
-- \S = any non-whitespace character
+* \d = any digit
+* \D = any non-digit
+* \w = any word character
+* \W = any non-word character
+* \s = any whitespace character
+* \S = any non-whitespace character
 
 As the reader can see, the capital letter version of the character class will match the opposite of the lowercase version. For example, \d will match any digit, while \D will match any non-digit.
 
@@ -75,4 +75,4 @@ Character Escapes are used to match special characters, and are indicated by a b
 
 ## Author
 
-Hello! I am Cesar, and I am a student currently enrolled in UT's fullstack coding bootcamp. I'm coming into this field from a customer service background, wanting to learn something new that is different from what I am used to. We can connect via my github: 
+Hello! I am Cesar, and I am a student currently enrolled in UT's fullstack coding bootcamp. I'm coming into this field from a customer service background, wanting to learn something new that is different from what I am used to. We can connect via my [github](github.com/ceca24).
