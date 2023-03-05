@@ -71,6 +71,8 @@ Flags are used to modify the search pattern, and are indicated by a forward slas
 
 ### Character Escapes
 
+Character Escapes are used to match special characters, and are indicated by a backslash "\". For example, if the reader wanted to match a period, they would use "\." instead of just ".". This is because the period is a special character, and would not be recognized by the regex engine without the backslash.
+
 ## Author
 
 Hello! I am Cesar, and I am a student currently enrolled in UT's fullstack coding bootcamp. I'm coming into this field from a customer service background, wanting to learn something new that is different from what I am used to. We can connect via my github: 
