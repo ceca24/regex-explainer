@@ -29,7 +29,13 @@ First things first, let's discuss the "Anchor" aspect of the regex. Anchors are 
 
 ### Quantifiers
 
+You may ask yourself, "What does 'Quantifiers' mean?" Well, the definition is "an expression that indicates the scope of a term to which it is attached". In regex, quantifiers will tell us how many times something is repeated, and is a part of the grouping. Though there are different types of quantifiers, in this example, curly brackets ({}) are the quantifiers. This can be used to make sure a value limit is exactly a certain amount of character. If left blank, the limit becomes infinite. With the above example {2, 6}, the quantifier is telling the reader that the item should be repeated at least two times, and up to 5 times. 
 
+Other examples of quantifiers include a question mark (?), an asterisk (*), and the plus sign (+). Each of these carry their own range as shown below:
+
+"?" = {0,1}
+"*" = {0,}
+"+" = {1,}
 
 ### Grouping Constructs
 
