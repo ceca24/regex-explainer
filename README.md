@@ -59,6 +59,12 @@ As the reader can see, the capital letter version of the character class will ma
 
 ### The OR Operator
 
+The OR Operator is used to match one of several possible pattern, being indicated by the pipe "|" symbol. For expression purposes, take this line for instance:
+
+(here|there|everywhere)
+
+This line will match the word "here", "there", OR "everywhere". This is a great way to match multiple words, or phrases, in a single line.
+
 ### Flags
 
 ### Character Escapes
