@@ -39,6 +39,8 @@ Other examples of quantifiers include a question mark (?), an asterisk (*), and 
 
 ### Grouping Constructs
 
+With Grouping Constructs, these are pretty straightforward. They can be found within parentheses "()", and work great when multiple bracket expressions are used. With the above example, there are three different grouping constructs, with their own paramaters set to allow certain types, or number of characters.
+
 ### Bracket Expressions
 
 ### Character Classes
