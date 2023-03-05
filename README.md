@@ -43,6 +43,8 @@ With Grouping Constructs, these are pretty straightforward. They can be found wi
 
 ### Bracket Expressions
 
+Bracket Expressions are used to define a set of characters that are allowed to be used in the regex. In the above example, the first grouping construct is defined by the bracket expression "a-z0-9_\.-". This means that the first grouping construct can only contain lowercase letters, numbers, underscores, periods, and hyphens. The second grouping construct is defined by the bracket expression "a-z0-9\.-". This means that the second grouping construct can only contain lowercase letters, numbers, periods, and hyphens. The third grouping construct is defined by the bracket expression "a-z\." This means that the third grouping construct can only contain lowercase letters, periods, and hyphens.
+
 ### Character Classes
 
 ### The OR Operator
